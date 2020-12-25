@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Promises</title>
+</head>
+<body>
+<div class="container">
+    <div id="right">
+        <ul id="instruct">
+            <h1>Promises</h1>
+
+            <li>
+                <h3>Challenge 1</h3>
+
+                Let's start by reviewing asynchronous functions!
+                Using setTimeout, print the string 'Hello!' after 1000ms.
+            </li>
+
+
+            <li>
+                <h3>Challenge 2</h3>
+
+                Create a promise. Have it resolve with a value of 'Resolved!' in resolve after a delay of 1000ms, using setTimeout.
+                Print the contents of the promise after it has been resolved by passing <code>console.log</code> to <code>.then</code>
+            </li>
+
+
+            <li>
+                <h3>Challenge 3</h3>
+
+                Create another promise. Now have it reject with a value of "Rejected!" without using setTimeout.
+                Print the contents of the promise after it has been rejected by passing <code>console.log</code> to <code>.catch</code>
+
+            </li>
+
+            <li>
+                <h3>Challenge 4</h3>
+
+                Promises are asynchronous and we're now going to prove that they indeed are!
+                Create a promise and have it resolve with the value of "Promise has been resolved!"
+                Then uncomment the code at bottom of Challenge 4.
+                What order do we expect "Promise has been resolved!" and "I'm not the promise!" to print? Why?
+            </li>
+
+            <li>
+                <h3>Challenge 5</h3>
+
+                Write a function <code>delay</code> that returns a promise.
+                And that promise should return a <code>setTimeout</code> that calls <code>resolve</code> after 1000ms
+            </li>
+
+
+            <li>
+                <h3>Challenge 6</h3>
+
+                This challenge we'll chain promises together using ".then"
+                Create two variables: firstPromise and secondPromise
+                Set secondPromise to be a promise that resolves to "Second!"
+                Set firstPromise to be a promise that resolves to <code>secondPromise</code>
+                Call the <code>firstPromise</code> with a ".then", which will return the <code>secondPromise&gt;</code> promise.
+                Then print the contents of the promise after it has been resolved by passing <code>console.log</code> to <code>.then</code>
+            </li>
+
+            <li>
+                <h3>Challenge 7</h3>
+
+                We have a API that gets data from a database, it takes an index parameter and returns a promise
+                Your challenge is to use <code>Promise.all</code> to make 3 API calls and return all the data when the calls are complete
+            </li>
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>

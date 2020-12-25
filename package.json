@@ -1,0 +1,36 @@
+{
+  "name": "javascript-the-hard-parts",
+  "version": "1.0.0",
+  "description": "Solve the problems from JS Hard Parts Tutorial on Frontend Master",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbx6/JavaScript-the-hard-parts.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercises",
+    "problem-solving-solving",
+    "js-hard-parts",
+    "closures",
+    "callbacs",
+    "async",
+    "iterators",
+    "oop",
+    "promises"
+  ],
+  "author": "SBX6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbx6/JavaScript-the-hard-parts/issues"
+  },
+  "homepage": "https://github.com/sbx6/JavaScript-the-hard-parts#readme",
+  "devDependencies": {
+    "eslint": "^7.12.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2"
+  }
+}
